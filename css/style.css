@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(147, 224, 147);
+}
+.logo{
+
+    display: flex;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+#container{
+    max-width: 700px;
+    margin: auto;
+    height: 440px;  
+    /* background-color: brown;  */
+    border-radius: 9px;
+    border: 3px solid black;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+#heading{
+    font-size:x-large;
+    margin: auto;
+    font-family:monospace;
+    width: 400px;
+    height: 30px;
+    color: rgb(39, 77, 39);
+    /* border: 1px solid rgb(0, 0, 0); */
+    text-align: center;
+margin-top: 10px
+}
+.message{
+    display: flex;
+    position: inherit;
+    padding: 5px;
+    margin: 17px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(12, 124, 59);
+    width: 25%;
+    height: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/* border-color: black ;
+border: 3px solid black;; */
+}
+.message.right{
+    float: right;
+    clear: both;
+
+}
+.message.left{
+    float: left;
+    clear: both;
+
+}
+#send-form{
+    text-align: center;
+    /* padding: 20px; */
+    /* width: 50%; 
+     /* height: 50px; */ 
+}
+#msg-input{
+    width: 45%;
+    height: 30px;
+    border-radius: 15px;
+}
+button{
+   width: 6%;
+    height: 35px;
+    border-radius: 15px;
+    background-color: rgb(79 211 22);
+    font-family: serif;
+    font-size: large;
+}
